@@ -1,0 +1,81 @@
+/*
+ * Copyright 2026 Simon Emms <simon@simonemms.com>
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+@import 'https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css';
+@import 'https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css';
+
+:root {
+  --temporal-bg: #141414;
+  --temporal-purple: #444ce7;
+  --temporal-text: #f8fafc;
+}
+
+html,
+body {
+  background: var(--temporal-bg);
+  color: var(--temporal-text);
+}
+
+.has-background-purple {
+  background-color: var(--temporal-purple);
+}
+
+.has-color-purple {
+  color: var(--temporal-purple) !important;
+}
+
+.has-color-white {
+  color: var(--temporal-text) !important;
+}
+
+.has-rounded-corners {
+  border-radius: 5px;
+}
+
+.section {
+  --bulma-section-padding: 1.5rem 1.5rem;
+}
+
+.title {
+  color: var(--temporal-text);
+}
+
+.subtitle {
+  color: var(--temporal-text);
+}
+
+.logo {
+  height: 80px;
+}
+
+.reasons .column:not(:last-child) {
+  border-right: 1px solid #333;
+}
+
+a {
+  color: var(--temporal-text) !important;
+}
+
+.users img {
+  height: 24px;
+  margin-top: 5px;
+  padding: 0 1rem;
+}
+
+.languages img {
+  width: auto;
+  height: 50px;
+}
