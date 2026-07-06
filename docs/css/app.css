@@ -18,64 +18,15 @@
 @import 'https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css';
 
 :root {
-  --temporal-bg: #141414;
-  --temporal-purple: #444ce7;
   --temporal-text: #f8fafc;
+  --temporal-purple: #a4a6db;
 }
 
 html,
 body {
-  background: var(--temporal-bg);
   color: var(--temporal-text);
 }
 
-.has-background-purple {
-  background-color: var(--temporal-purple);
-}
-
-.has-color-purple {
-  color: var(--temporal-purple) !important;
-}
-
-.has-color-white {
-  color: var(--temporal-text) !important;
-}
-
-.has-rounded-corners {
-  border-radius: 5px;
-}
-
-.section {
-  --bulma-section-padding: 1.5rem 1.5rem;
-}
-
-.title {
-  color: var(--temporal-text);
-}
-
-.subtitle {
-  color: var(--temporal-text);
-}
-
-.logo {
-  height: 80px;
-}
-
-.reasons .column:not(:last-child) {
-  border-right: 1px solid #333;
-}
-
-a {
-  color: var(--temporal-text) !important;
-}
-
-.users img {
-  height: 24px;
-  margin-top: 5px;
-  padding: 0 1rem;
-}
-
-.languages img {
-  width: auto;
-  height: 50px;
+.has-text-purple {
+  color: var(--temporal-purple);
 }
